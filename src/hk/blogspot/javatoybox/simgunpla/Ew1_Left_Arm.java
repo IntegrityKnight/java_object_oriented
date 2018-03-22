@@ -10,4 +10,9 @@ public class Ew1_Left_Arm extends GunplaArm {
 	public void setOption_equipment(String option_equipment) {
 		this.option_equipment = option_equipment;
 	}
+
+	@Override
+	public String toString() {
+		return "Call Ew1_Left_Arm Sub Class toString()";
+	}
 }

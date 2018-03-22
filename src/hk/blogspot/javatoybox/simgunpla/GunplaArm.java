@@ -2,7 +2,7 @@ package hk.blogspot.javatoybox.simgunpla;
 
 import hk.blogspot.javatoybox.simgunpla.junction.PC_C;
 
-public class GunplaArm implements PC_C{
+public class GunplaArm implements PC_C {
 
 	private String code_name;
 	private String gundam_name;
@@ -25,6 +25,11 @@ public class GunplaArm implements PC_C{
 
 	public void setGundam_name(String gundam_name) {
 		this.gundam_name = gundam_name;
+	}
+
+	@Override
+	public String toString() {
+		return "Call GunplaArm Super Class toString()";
 	}
 
 }
